@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 8px;
+    z-index: 1000;
+    box-shadow: 1px 4px lightblue;
+}
+
+.header input {
+    width:50%;
+    height: 24px;
+    padding: 4px
+
+}
