@@ -41,7 +41,7 @@ export default function Countries() {
   let filteredData = countryList;
   if (filter.length > 0) {
     filteredData = countryList.filter((country) =>
-      String(country.name.common).toLowerCase().includes(filter)
+      String(country.name.common).toLowerCase().includes(filter.toLowerCase())
     );
   }
   return (
