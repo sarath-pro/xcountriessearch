@@ -4,11 +4,10 @@ import * as data from "./data.json";
 import Header from "./Header";
 
 function Card({ imgSrc, altText, countryName }) {
-  console.log("card called");
   return (
     <div className="countryCard">
       <img src={imgSrc} alt={altText} />
-      <h3>{countryName}</h3>
+      <h2>{countryName}</h2>
     </div>
   );
 }
